@@ -1,0 +1,10 @@
+.btnStyle{
+    border: none;
+    background-color: blueviolet;
+    border-radius: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: antiquewhite;
+    padding: 1rem 2rem;
+    font-size: 20px;
+    cursor: pointer;
+}
