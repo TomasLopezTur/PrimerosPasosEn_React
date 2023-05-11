@@ -17,7 +17,7 @@ export const User = () => {
         <>
             <h2>Mostrar Datos</h2>
             <p style={userStyle}>Nombre de usuario: {USER.name}</p>
-            <img style={imgStyle} src={USER.avatar} alt="" srcset="" />
+            <img style={imgStyle} src={USER.avatar} alt="" />
             <p>Edad: {USER.age}</p>
         </>
     )
