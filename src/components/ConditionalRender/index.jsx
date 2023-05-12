@@ -17,10 +17,10 @@ export const ConditionalRender = ()=>{
     const [isLoggedIn, setIsLoggedIn] = useState(false)
 
 
-    let handleClick = ()=>{
+    /* let handleClick = ()=>{
         setIsLoggedIn(!isLoggedIn)
         
-    }
+    } */
 
     let handleChange = (e) => {
         console.log(e.target.value)
@@ -30,7 +30,7 @@ export const ConditionalRender = ()=>{
 
     return (
         <Fragment>
-            <h2 onClick={handleClick}>Renderizado condicional</h2>
+            <h2 /* onClick={handleClick} */>Renderizado condicional</h2>
             {/* content(true) */ isLoggedIn ? <div>
                 <p>"Logueado"</p> 
                 <Button text="Logout" className="btn-green" handleClick={handleUserLogout} />
