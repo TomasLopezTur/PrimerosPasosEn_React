@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h1>React DOC - inicio rapido!!</h1>
       <hr/>
-      <Button text="PropTypes" className="btn-green" />
+      <Button text={"PropTypes"} className="btn-green" />
       <hr/>
       <List />
       <hr/>
