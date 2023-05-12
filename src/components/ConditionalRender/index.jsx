@@ -25,11 +25,13 @@ export const ConditionalRender = ()=>{
     let handleChange = (e) => {
         console.log(e.target.value)
     }
+    let handleUserLogin = () => setIsLoggedIn(!isLoggedIn)
+    let handleUserLogout = () => setIsLoggedIn(!isLoggedIn)
 
     return (
         <Fragment>
             <h2 onClick={handleClick}>Renderizado condicional</h2>
-            {/* content(true) */ isLoggedIn ? <p>"Logueado"</p> : <Button />}
+            {/* content(true) */ isLoggedIn ? <p>"Logueado"</p> : <Button text="Condicional" className="btnStyle" handleClick={handleUserLogin} />}
             <div>
             <input type="text" onChange={handleChange} />
             </div>

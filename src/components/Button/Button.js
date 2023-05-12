@@ -1,5 +1,5 @@
 import "./Button.css"
 
-export const Button = () => {
-    return <button className="btnStyle" /* style={{backgroundColor: "red"}} */>I´m Button</button>;
+export const Button = (props) => {
+    return <button className={props.className}  /* style={{backgroundColor: "red"}} */>{props.text}</button>;
 }
