@@ -4,11 +4,14 @@ import { User } from '../User/User';
 import { ConditionalRender } from '../ConditionalRender';
 import { List } from '../List';
 import { Count } from '../Count';
+import { TicTacToe } from '../TicTacToe';
 
 function App() {
   return (
     <div className="App">
       <h1>React DOC - inicio rapido!!</h1>
+      <hr/>
+      <TicTacToe />
       <hr/>
       <Button text={"PropTypes"} className="btn-green" />
       <hr/>
